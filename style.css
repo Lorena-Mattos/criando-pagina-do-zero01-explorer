@@ -1,73 +1,24 @@
 body {
   margin: 0;
-  text-align: end;
   
   font-family: 'Open Sans', sans-serif;
 
-  background-color: #2F2E41;
-}
-#logo {
-  position: absolute;
-  width: 140px;
-  height: 22px;
-  right: 98px;
-  left: 99px;
-  top: 71px;
-  bottom: 619px;
-
-  font-family: 'JetBrains Mono';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 28px;
-
-  text-align: center;
-
-  color: #FFFFFF;
-}
-#img1 {
-  position: absolute;
-  height: 283px;
-  right: 89;
-  left: 99px;
-  top: 202px;
-
-  bottom: 235px;
-}
-
-.page {
-  
-  width: 1280px;
-  height: 283px;
-  top: 828px;
-  
+  background: #2F2E41;
 }
 
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
-  margin-bottom: 55px;
+  width: 1083px;
+  margin: 71px auto 101px;
 }
 
 ul {
   display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 0px;
-  
-  list-style: none;
   gap: 64px;
-  position: absolute;
-  width: 306px;
-  height: 30.05px;
-  right: 98px;
-  left: 876px;
-  top: 71px;
-  bottom: 618px;
-
-
+  align-items: flex-start;
+  list-style: none;
 
   font-family: 'JetBrains Mono', monospace;
   color:#FFFFFF
@@ -93,30 +44,22 @@ h1, ul {
 
 main {
   display: flex;
-  align-items: center;
+  width: 1092px;
   justify-content: space-between;
+  margin: 0 auto 157px;
 }
 
 h1 {
-  position: absolute;
-  left: 577px;
-  right: 3px;
-  top: 208px;
-  bottom: 472px;
-
+  color: #FFFFFF;
   font-family: 'JetBrains Mono', monospace;
   font-style: normal;
-  font-weight: 700;
   font-size: 36px;
+  
   line-height: 40px;
-
   text-align: center;
 
-  color: #FFFFFF;
-
-  mix-blend-mode: normal;
+  margin: 0;
 }
-
 
 span {
   color: #00BFA6;
@@ -125,32 +68,16 @@ span {
   font-weight: bold;
 }
 
-section {
-
-  color: #FFFFFF;
-  
-  mix-blend-mode: normal;
-}
-
-p {
-  position: absolute;
-  left: 582px;
-  right: 94px;
-  top: 307px;
-  bottom: 1px;
-
+section p {
   font-family: 'Open Sans';
   font-style: normal;
-  font-weight: 400;
+  
   font-size: 16px;
   line-height: 28px;
-
-
   text-align: center;
 
   color: #C2C2C2;
 
-  mix-blend-mode: normal;
   font-size: 14px;
   line-height: 28px;
   margin: 0;
@@ -158,25 +85,23 @@ p {
 
 
 footer {
-  position: absolute;
+  width: 568px;
+  margin: 0 auto;
   text-align: center;
-  
-  Height: 55px;
-  Top: 669px;
-  right: 421px;
-  Left: 356px;
-  bottom: 23px;
+  margin-bottom: 23px;
+
   color: #FFFFFF;
 }
 
 .line {
-  position: absolute;
   width: 568px;
   height: 0px;
   right: 356px;
   left: 356px;
   top: 642px;
   bottom: 78px;
+
+  margin-bottom: 27px;
 
   border: 1px solid #00BFA6;
 }
